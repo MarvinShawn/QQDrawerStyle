@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92E1B17BE8704FA65B4616AA /* libPods-仿QQ的抽屉效果.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CB8DBA089FB85CF91E8CFE /* libPods-仿QQ的抽屉效果.a */; };
+		D43FA5281CFC307600579153 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43FA5271CFC307600579153 /* main.m */; };
+		D43FA52B1CFC307600579153 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43FA52A1CFC307600579153 /* AppDelegate.m */; };
+		D43FA5331CFC307600579153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43FA5321CFC307600579153 /* Assets.xcassets */; };
+		D43FA5361CFC307600579153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43FA5341CFC307600579153 /* LaunchScreen.storyboard */; };
+		D43FA5411CFC307600579153 /* _QQ_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D43FA5401CFC307600579153 /* _QQ_____Tests.m */; };
+		D43FA54C1CFC307600579153 /* _QQ_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D43FA54B1CFC307600579153 /* _QQ_____UITests.m */; };
+		D43FA55B1CFC30CA00579153 /* XYDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43FA55A1CFC30CA00579153 /* XYDrawerViewController.m */; };
+		D43FA5611CFC33E900579153 /* XYLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43FA5601CFC33E900579153 /* XYLeftViewController.m */; };
+		D43FA5641CFC790000579153 /* XYIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = D43FA5631CFC790000579153 /* XYIconView.m */; };
+		D43FA5661CFC791800579153 /* XYIconView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D43FA5651CFC791800579153 /* XYIconView.xib */; };
+		D44A9D5A1CFFB1D500332A6F /* XTPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D44A9D591CFFB1D500332A6F /* XTPopView.m */; };
+		D455BA761CFE8DC200121CCF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BA751CFE8DC200121CCF /* MainViewController.m */; };
+		D455BA7A1CFE9F1F00121CCF /* XYNewsNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BA791CFE9F1F00121CCF /* XYNewsNavController.m */; };
+		D455BA7D1CFE9F4B00121CCF /* LinkMenNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BA7C1CFE9F4B00121CCF /* LinkMenNavController.m */; };
+		D455BA801CFE9F9500121CCF /* ComingsNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BA7F1CFE9F9500121CCF /* ComingsNavController.m */; };
+		D455BA851CFEA18D00121CCF /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BA841CFEA18D00121CCF /* NewsViewController.m */; };
+		D455BA881CFEA1AF00121CCF /* LinkmenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BA871CFEA1AF00121CCF /* LinkmenViewController.m */; };
+		D455BA8B1CFEA1D800121CCF /* ComingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BA8A1CFEA1D800121CCF /* ComingViewController.m */; };
+		D455BA8F1CFEA43400121CCF /* XYNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BA8E1CFEA43400121CCF /* XYNewsCell.m */; };
+		D455BAB71CFEAA8600121CCF /* news.plist in Resources */ = {isa = PBXBuildFile; fileRef = D455BAB61CFEAA8600121CCF /* news.plist */; };
+		D455BABB1CFEADB900121CCF /* XYNews.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BABA1CFEADB900121CCF /* XYNews.m */; };
+		D455BABF1CFED95C00121CCF /* XYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BABE1CFED95C00121CCF /* XYBaseViewController.m */; };
+		D455BAC21CFEF1DF00121CCF /* XYBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BAC11CFEF1DF00121CCF /* XYBaseNavController.m */; };
+		D455BAD01CFF266900121CCF /* phoneNews.plist in Resources */ = {isa = PBXBuildFile; fileRef = D455BACF1CFF266900121CCF /* phoneNews.plist */; };
+		D455BAD31CFF283B00121CCF /* XYPhoneNews.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BAD21CFF283B00121CCF /* XYPhoneNews.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D43FA53D1CFC307600579153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43FA51B1CFC307600579153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43FA5221CFC307600579153;
+			remoteInfo = "仿QQ的抽屉效果";
+		};
+		D43FA5481CFC307600579153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43FA51B1CFC307600579153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43FA5221CFC307600579153;
+			remoteInfo = "仿QQ的抽屉效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57CB8DBA089FB85CF91E8CFE /* libPods-仿QQ的抽屉效果.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-仿QQ的抽屉效果.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		919D82E9D5482249EF9109D5 /* Pods-仿QQ的抽屉效果.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿QQ的抽屉效果.release.xcconfig"; path = "Pods/Target Support Files/Pods-仿QQ的抽屉效果/Pods-仿QQ的抽屉效果.release.xcconfig"; sourceTree = "<group>"; };
+		97FD712BB32E94C75DD26391 /* Pods-仿QQ的抽屉效果.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿QQ的抽屉效果.debug.xcconfig"; path = "Pods/Target Support Files/Pods-仿QQ的抽屉效果/Pods-仿QQ的抽屉效果.debug.xcconfig"; sourceTree = "<group>"; };
+		D43FA5231CFC307600579153 /* 仿QQ的抽屉效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿QQ的抽屉效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43FA5271CFC307600579153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D43FA5291CFC307600579153 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D43FA52A1CFC307600579153 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D43FA5321CFC307600579153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D43FA5351CFC307600579153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D43FA5371CFC307600579153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43FA53C1CFC307600579153 /* 仿QQ的抽屉效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿QQ的抽屉效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43FA5401CFC307600579153 /* _QQ_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_QQ_____Tests.m"; sourceTree = "<group>"; };
+		D43FA5421CFC307600579153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43FA5471CFC307600579153 /* 仿QQ的抽屉效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿QQ的抽屉效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43FA54B1CFC307600579153 /* _QQ_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_QQ_____UITests.m"; sourceTree = "<group>"; };
+		D43FA54D1CFC307600579153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43FA5591CFC30CA00579153 /* XYDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDrawerViewController.h; sourceTree = "<group>"; };
+		D43FA55A1CFC30CA00579153 /* XYDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDrawerViewController.m; sourceTree = "<group>"; };
+		D43FA55F1CFC33E900579153 /* XYLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLeftViewController.h; sourceTree = "<group>"; };
+		D43FA5601CFC33E900579153 /* XYLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLeftViewController.m; sourceTree = "<group>"; };
+		D43FA5621CFC790000579153 /* XYIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYIconView.h; sourceTree = "<group>"; };
+		D43FA5631CFC790000579153 /* XYIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYIconView.m; sourceTree = "<group>"; };
+		D43FA5651CFC791800579153 /* XYIconView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYIconView.xib; sourceTree = "<group>"; };
+		D44A9D581CFFB1D500332A6F /* XTPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPopView.h; sourceTree = "<group>"; };
+		D44A9D591CFFB1D500332A6F /* XTPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPopView.m; sourceTree = "<group>"; };
+		D455BA741CFE8DC200121CCF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D455BA751CFE8DC200121CCF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D455BA781CFE9F1F00121CCF /* XYNewsNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNewsNavController.h; sourceTree = "<group>"; };
+		D455BA791CFE9F1F00121CCF /* XYNewsNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNewsNavController.m; sourceTree = "<group>"; };
+		D455BA7B1CFE9F4B00121CCF /* LinkMenNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkMenNavController.h; sourceTree = "<group>"; };
+		D455BA7C1CFE9F4B00121CCF /* LinkMenNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkMenNavController.m; sourceTree = "<group>"; };
+		D455BA7E1CFE9F9500121CCF /* ComingsNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComingsNavController.h; sourceTree = "<group>"; };
+		D455BA7F1CFE9F9500121CCF /* ComingsNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComingsNavController.m; sourceTree = "<group>"; };
+		D455BA831CFEA18D00121CCF /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		D455BA841CFEA18D00121CCF /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		D455BA861CFEA1AF00121CCF /* LinkmenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkmenViewController.h; sourceTree = "<group>"; };
+		D455BA871CFEA1AF00121CCF /* LinkmenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkmenViewController.m; sourceTree = "<group>"; };
+		D455BA891CFEA1D800121CCF /* ComingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComingViewController.h; sourceTree = "<group>"; };
+		D455BA8A1CFEA1D800121CCF /* ComingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComingViewController.m; sourceTree = "<group>"; };
+		D455BA8D1CFEA43400121CCF /* XYNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNewsCell.h; sourceTree = "<group>"; };
+		D455BA8E1CFEA43400121CCF /* XYNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNewsCell.m; sourceTree = "<group>"; };
+		D455BAB61CFEAA8600121CCF /* news.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = news.plist; sourceTree = "<group>"; };
+		D455BAB91CFEADB900121CCF /* XYNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNews.h; sourceTree = "<group>"; };
+		D455BABA1CFEADB900121CCF /* XYNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNews.m; sourceTree = "<group>"; };
+		D455BABD1CFED95C00121CCF /* XYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBaseViewController.h; sourceTree = "<group>"; };
+		D455BABE1CFED95C00121CCF /* XYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBaseViewController.m; sourceTree = "<group>"; };
+		D455BAC01CFEF1DF00121CCF /* XYBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBaseNavController.h; sourceTree = "<group>"; };
+		D455BAC11CFEF1DF00121CCF /* XYBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBaseNavController.m; sourceTree = "<group>"; };
+		D455BACF1CFF266900121CCF /* phoneNews.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = phoneNews.plist; sourceTree = "<group>"; };
+		D455BAD11CFF283B00121CCF /* XYPhoneNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPhoneNews.h; sourceTree = "<group>"; };
+		D455BAD21CFF283B00121CCF /* XYPhoneNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPhoneNews.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43FA5201CFC307600579153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E1B17BE8704FA65B4616AA /* libPods-仿QQ的抽屉效果.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43FA5391CFC307600579153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43FA5441CFC307600579153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D81D8EE5E02D03A23A47F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57CB8DBA089FB85CF91E8CFE /* libPods-仿QQ的抽屉效果.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67E8C4FA974865E764A3B60E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97FD712BB32E94C75DD26391 /* Pods-仿QQ的抽屉效果.debug.xcconfig */,
+				919D82E9D5482249EF9109D5 /* Pods-仿QQ的抽屉效果.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D43FA51A1CFC307600579153 = {
+			isa = PBXGroup;
+			children = (
+				D43FA5251CFC307600579153 /* 仿QQ的抽屉效果 */,
+				D43FA53F1CFC307600579153 /* 仿QQ的抽屉效果Tests */,
+				D43FA54A1CFC307600579153 /* 仿QQ的抽屉效果UITests */,
+				D43FA5241CFC307600579153 /* Products */,
+				67E8C4FA974865E764A3B60E /* Pods */,
+				47D81D8EE5E02D03A23A47F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D43FA5241CFC307600579153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43FA5231CFC307600579153 /* 仿QQ的抽屉效果.app */,
+				D43FA53C1CFC307600579153 /* 仿QQ的抽屉效果Tests.xctest */,
+				D43FA5471CFC307600579153 /* 仿QQ的抽屉效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D43FA5251CFC307600579153 /* 仿QQ的抽屉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				D455BABC1CFED90300121CCF /* LeftView */,
+				D43FA5291CFC307600579153 /* AppDelegate.h */,
+				D43FA52A1CFC307600579153 /* AppDelegate.m */,
+				D43FA5591CFC30CA00579153 /* XYDrawerViewController.h */,
+				D43FA55A1CFC30CA00579153 /* XYDrawerViewController.m */,
+				D455BAC31CFF008400121CCF /* Views */,
+				D455BA771CFE9E2E00121CCF /* MainVc */,
+				D43FA5321CFC307600579153 /* Assets.xcassets */,
+				D43FA5341CFC307600579153 /* LaunchScreen.storyboard */,
+				D43FA5261CFC307600579153 /* Supporting Files */,
+				D43FA5621CFC790000579153 /* XYIconView.h */,
+				D43FA5631CFC790000579153 /* XYIconView.m */,
+				D43FA5651CFC791800579153 /* XYIconView.xib */,
+			);
+			path = "仿QQ的抽屉效果";
+			sourceTree = "<group>";
+		};
+		D43FA5261CFC307600579153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43FA5371CFC307600579153 /* Info.plist */,
+				D43FA5271CFC307600579153 /* main.m */,
+				D455BAB61CFEAA8600121CCF /* news.plist */,
+				D455BACF1CFF266900121CCF /* phoneNews.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D43FA53F1CFC307600579153 /* 仿QQ的抽屉效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D43FA5401CFC307600579153 /* _QQ_____Tests.m */,
+				D43FA5421CFC307600579153 /* Info.plist */,
+			);
+			path = "仿QQ的抽屉效果Tests";
+			sourceTree = "<group>";
+		};
+		D43FA54A1CFC307600579153 /* 仿QQ的抽屉效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D43FA54B1CFC307600579153 /* _QQ_____UITests.m */,
+				D43FA54D1CFC307600579153 /* Info.plist */,
+			);
+			path = "仿QQ的抽屉效果UITests";
+			sourceTree = "<group>";
+		};
+		D44A9D571CFFB1D500332A6F /* XTPopView */ = {
+			isa = PBXGroup;
+			children = (
+				D44A9D581CFFB1D500332A6F /* XTPopView.h */,
+				D44A9D591CFFB1D500332A6F /* XTPopView.m */,
+			);
+			path = XTPopView;
+			sourceTree = "<group>";
+		};
+		D455BA771CFE9E2E00121CCF /* MainVc */ = {
+			isa = PBXGroup;
+			children = (
+				D455BA741CFE8DC200121CCF /* MainViewController.h */,
+				D455BA751CFE8DC200121CCF /* MainViewController.m */,
+				D455BAB81CFEAD8900121CCF /* Models */,
+				D455BA811CFE9FA100121CCF /* Nav */,
+				D455BA821CFE9FFE00121CCF /* CommonVc */,
+				D455BA8C1CFEA2F800121CCF /* cells */,
+			);
+			name = MainVc;
+			sourceTree = "<group>";
+		};
+		D455BA811CFE9FA100121CCF /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				D455BA781CFE9F1F00121CCF /* XYNewsNavController.h */,
+				D455BA791CFE9F1F00121CCF /* XYNewsNavController.m */,
+				D455BA7B1CFE9F4B00121CCF /* LinkMenNavController.h */,
+				D455BA7C1CFE9F4B00121CCF /* LinkMenNavController.m */,
+				D455BA7E1CFE9F9500121CCF /* ComingsNavController.h */,
+				D455BA7F1CFE9F9500121CCF /* ComingsNavController.m */,
+				D455BAC01CFEF1DF00121CCF /* XYBaseNavController.h */,
+				D455BAC11CFEF1DF00121CCF /* XYBaseNavController.m */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
+		D455BA821CFE9FFE00121CCF /* CommonVc */ = {
+			isa = PBXGroup;
+			children = (
+				D455BA831CFEA18D00121CCF /* NewsViewController.h */,
+				D455BA841CFEA18D00121CCF /* NewsViewController.m */,
+				D455BA861CFEA1AF00121CCF /* LinkmenViewController.h */,
+				D455BA871CFEA1AF00121CCF /* LinkmenViewController.m */,
+				D455BA891CFEA1D800121CCF /* ComingViewController.h */,
+				D455BA8A1CFEA1D800121CCF /* ComingViewController.m */,
+			);
+			name = CommonVc;
+			sourceTree = "<group>";
+		};
+		D455BA8C1CFEA2F800121CCF /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				D455BA8D1CFEA43400121CCF /* XYNewsCell.h */,
+				D455BA8E1CFEA43400121CCF /* XYNewsCell.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		D455BAB81CFEAD8900121CCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D455BAB91CFEADB900121CCF /* XYNews.h */,
+				D455BABA1CFEADB900121CCF /* XYNews.m */,
+				D455BAD11CFF283B00121CCF /* XYPhoneNews.h */,
+				D455BAD21CFF283B00121CCF /* XYPhoneNews.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D455BABC1CFED90300121CCF /* LeftView */ = {
+			isa = PBXGroup;
+			children = (
+				D43FA55F1CFC33E900579153 /* XYLeftViewController.h */,
+				D43FA5601CFC33E900579153 /* XYLeftViewController.m */,
+				D455BABD1CFED95C00121CCF /* XYBaseViewController.h */,
+				D455BABE1CFED95C00121CCF /* XYBaseViewController.m */,
+			);
+			name = LeftView;
+			sourceTree = "<group>";
+		};
+		D455BAC31CFF008400121CCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D44A9D571CFFB1D500332A6F /* XTPopView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43FA5221CFC307600579153 /* 仿QQ的抽屉效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43FA5501CFC307600579153 /* Build configuration list for PBXNativeTarget "仿QQ的抽屉效果" */;
+			buildPhases = (
+				34BAD292E0E09EE10F3D7016 /* [CP] Check Pods Manifest.lock */,
+				D43FA51F1CFC307600579153 /* Sources */,
+				D43FA5201CFC307600579153 /* Frameworks */,
+				D43FA5211CFC307600579153 /* Resources */,
+				28AC94EB2BF11C34C532E888 /* [CP] Embed Pods Frameworks */,
+				C5A896030DB8A05565CCF878 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿QQ的抽屉效果";
+			productName = "仿QQ的抽屉效果";
+			productReference = D43FA5231CFC307600579153 /* 仿QQ的抽屉效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D43FA53B1CFC307600579153 /* 仿QQ的抽屉效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43FA5531CFC307600579153 /* Build configuration list for PBXNativeTarget "仿QQ的抽屉效果Tests" */;
+			buildPhases = (
+				D43FA5381CFC307600579153 /* Sources */,
+				D43FA5391CFC307600579153 /* Frameworks */,
+				D43FA53A1CFC307600579153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43FA53E1CFC307600579153 /* PBXTargetDependency */,
+			);
+			name = "仿QQ的抽屉效果Tests";
+			productName = "仿QQ的抽屉效果Tests";
+			productReference = D43FA53C1CFC307600579153 /* 仿QQ的抽屉效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D43FA5461CFC307600579153 /* 仿QQ的抽屉效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43FA5561CFC307600579153 /* Build configuration list for PBXNativeTarget "仿QQ的抽屉效果UITests" */;
+			buildPhases = (
+				D43FA5431CFC307600579153 /* Sources */,
+				D43FA5441CFC307600579153 /* Frameworks */,
+				D43FA5451CFC307600579153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43FA5491CFC307600579153 /* PBXTargetDependency */,
+			);
+			name = "仿QQ的抽屉效果UITests";
+			productName = "仿QQ的抽屉效果UITests";
+			productReference = D43FA5471CFC307600579153 /* 仿QQ的抽屉效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43FA51B1CFC307600579153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ww;
+				TargetAttributes = {
+					D43FA5221CFC307600579153 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D43FA53B1CFC307600579153 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D43FA5221CFC307600579153;
+					};
+					D43FA5461CFC307600579153 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D43FA5221CFC307600579153;
+					};
+				};
+			};
+			buildConfigurationList = D43FA51E1CFC307600579153 /* Build configuration list for PBXProject "仿QQ的抽屉效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D43FA51A1CFC307600579153;
+			productRefGroup = D43FA5241CFC307600579153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43FA5221CFC307600579153 /* 仿QQ的抽屉效果 */,
+				D43FA53B1CFC307600579153 /* 仿QQ的抽屉效果Tests */,
+				D43FA5461CFC307600579153 /* 仿QQ的抽屉效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43FA5211CFC307600579153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D455BAB71CFEAA8600121CCF /* news.plist in Resources */,
+				D455BAD01CFF266900121CCF /* phoneNews.plist in Resources */,
+				D43FA5661CFC791800579153 /* XYIconView.xib in Resources */,
+				D43FA5361CFC307600579153 /* LaunchScreen.storyboard in Resources */,
+				D43FA5331CFC307600579153 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43FA53A1CFC307600579153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43FA5451CFC307600579153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28AC94EB2BF11C34C532E888 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿QQ的抽屉效果/Pods-仿QQ的抽屉效果-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34BAD292E0E09EE10F3D7016 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A896030DB8A05565CCF878 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿QQ的抽屉效果/Pods-仿QQ的抽屉效果-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43FA51F1CFC307600579153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D455BA7D1CFE9F4B00121CCF /* LinkMenNavController.m in Sources */,
+				D455BA801CFE9F9500121CCF /* ComingsNavController.m in Sources */,
+				D43FA5611CFC33E900579153 /* XYLeftViewController.m in Sources */,
+				D455BA761CFE8DC200121CCF /* MainViewController.m in Sources */,
+				D43FA52B1CFC307600579153 /* AppDelegate.m in Sources */,
+				D44A9D5A1CFFB1D500332A6F /* XTPopView.m in Sources */,
+				D455BABB1CFEADB900121CCF /* XYNews.m in Sources */,
+				D455BA881CFEA1AF00121CCF /* LinkmenViewController.m in Sources */,
+				D43FA55B1CFC30CA00579153 /* XYDrawerViewController.m in Sources */,
+				D455BAC21CFEF1DF00121CCF /* XYBaseNavController.m in Sources */,
+				D455BA7A1CFE9F1F00121CCF /* XYNewsNavController.m in Sources */,
+				D455BA851CFEA18D00121CCF /* NewsViewController.m in Sources */,
+				D455BA8B1CFEA1D800121CCF /* ComingViewController.m in Sources */,
+				D455BAD31CFF283B00121CCF /* XYPhoneNews.m in Sources */,
+				D455BABF1CFED95C00121CCF /* XYBaseViewController.m in Sources */,
+				D455BA8F1CFEA43400121CCF /* XYNewsCell.m in Sources */,
+				D43FA5641CFC790000579153 /* XYIconView.m in Sources */,
+				D43FA5281CFC307600579153 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43FA5381CFC307600579153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43FA5411CFC307600579153 /* _QQ_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43FA5431CFC307600579153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43FA54C1CFC307600579153 /* _QQ_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D43FA53E1CFC307600579153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43FA5221CFC307600579153 /* 仿QQ的抽屉效果 */;
+			targetProxy = D43FA53D1CFC307600579153 /* PBXContainerItemProxy */;
+		};
+		D43FA5491CFC307600579153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43FA5221CFC307600579153 /* 仿QQ的抽屉效果 */;
+			targetProxy = D43FA5481CFC307600579153 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D43FA5341CFC307600579153 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43FA5351CFC307600579153 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D43FA54E1CFC307600579153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D43FA54F1CFC307600579153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D43FA5511CFC307600579153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97FD712BB32E94C75DD26391 /* Pods-仿QQ的抽屉效果.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿QQ的抽屉效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-QQ-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D43FA5521CFC307600579153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919D82E9D5482249EF9109D5 /* Pods-仿QQ的抽屉效果.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿QQ的抽屉效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-QQ-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D43FA5541CFC307600579153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿QQ的抽屉效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-QQ-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿QQ的抽屉效果.app/仿QQ的抽屉效果";
+			};
+			name = Debug;
+		};
+		D43FA5551CFC307600579153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿QQ的抽屉效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-QQ-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿QQ的抽屉效果.app/仿QQ的抽屉效果";
+			};
+			name = Release;
+		};
+		D43FA5571CFC307600579153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿QQ的抽屉效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-QQ-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿QQ的抽屉效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D43FA5581CFC307600579153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿QQ的抽屉效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-QQ-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿QQ的抽屉效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43FA51E1CFC307600579153 /* Build configuration list for PBXProject "仿QQ的抽屉效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43FA54E1CFC307600579153 /* Debug */,
+				D43FA54F1CFC307600579153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43FA5501CFC307600579153 /* Build configuration list for PBXNativeTarget "仿QQ的抽屉效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43FA5511CFC307600579153 /* Debug */,
+				D43FA5521CFC307600579153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43FA5531CFC307600579153 /* Build configuration list for PBXNativeTarget "仿QQ的抽屉效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43FA5541CFC307600579153 /* Debug */,
+				D43FA5551CFC307600579153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43FA5561CFC307600579153 /* Build configuration list for PBXNativeTarget "仿QQ的抽屉效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43FA5571CFC307600579153 /* Debug */,
+				D43FA5581CFC307600579153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43FA51B1CFC307600579153 /* Project object */;
+}
